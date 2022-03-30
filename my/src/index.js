@@ -2,17 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Student from './pages/student';
+import Student from './pages/Student';
+import Book from './pages/Book';
+import Nilai from './pages/Nilai';
+import Tahu from './pages/Tahu';
 
 import reportWebVitals from './reportWebVitals';
 // load library bootstrap for styling
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle"
+import "@fortawesome/fontawesome-free/js/all"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Student/>
-  </React.StrictMode>,
+    <App/>,
   document.getElementById('root')
 );
 
